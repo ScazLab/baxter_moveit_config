@@ -17,9 +17,9 @@ controller_list:
       - right_w0
       - right_w1
       - right_w2
-  - name: fake_left_hand_controller
+  - name: fake_left_ee_controller
     joints:
       - l_gripper_l_finger_joint
-  - name: fake_right_hand_controller
+  - name: fake_right_ee_controller
     joints:
       - r_gripper_l_finger_joint
