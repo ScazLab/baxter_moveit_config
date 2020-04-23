@@ -19,7 +19,7 @@ controller_list:
       - right_w2
   - name: fake_left_ee_controller
     joints:
-      - l_gripper_l_finger_joint
+      []
   - name: fake_right_ee_controller
     joints:
-      - r_gripper_l_finger_joint
+      []
