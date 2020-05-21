@@ -37,11 +37,27 @@
         <link name="left_hand" />
         <link name="left_gripper_base" />
         <link name="left_gripper" />
+        <link name="l_gripper_l_finger" />
+        <link name="l_gripper_l_finger_tip" />
+        <link name="l_gripper_r_finger" />
+        <link name="l_gripper_r_finger_tip" />
+        <link name="left_hand_accelerometer" />
+        <link name="left_hand_camera" />
+        <link name="left_hand_camera_axis" />
+        <link name="left_hand_range" />
     </group>
     <group name="right_ee">
         <link name="right_hand" />
         <link name="right_gripper_base" />
         <link name="right_gripper" />
+        <link name="r_gripper_l_finger" />
+        <link name="r_gripper_l_finger_tip" />
+        <link name="r_gripper_r_finger" />
+        <link name="r_gripper_r_finger_tip" />
+        <link name="right_hand_accelerometer" />
+        <link name="right_hand_camera" />
+        <link name="right_hand_camera_axis" />
+        <link name="right_hand_range" />
     </group>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="left_end_effector" parent_link="left_gripper" group="left_ee" />
